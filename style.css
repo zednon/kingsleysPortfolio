@@ -1,0 +1,50 @@
+header {
+    background-color: rgb(19, 19, 55);
+    height: auto;
+    color:aliceblue;
+}
+
+section {
+    background-color: antiquewhite;
+    height: auto;
+}
+
+footer {
+background-color: aquamarine;
+height: 150px;
+
+}
+
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.liNavTop {
+display: inline-block;
+padding: 10px 25px;
+
+}
+
+.liNavTop a {
+    color:bisque;
+    text-decoration: none;
+}
+
+.ulNavTop {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box1 {
+border: 5px black solid;
+}
